@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практична робота №4 - FPV Дрони та Технології</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#" class="logo">FPV<span>World</span></a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#about">Про тему</a></li>
+                    <li><a href="#military">Військове застосування</a></li>
+                    <li><a href="#types">Види дронів</a></li>
+                    <li><a href="#features">Компоненти</a></li>
+                    <li><a href="#simulators">Симулятори</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="site-section">
+            <div class="container">
+                <h2>Що таке FPV Дрони?</h2>
+                <div class="about-content">
+                    <p><strong>FPV (First Person View)</strong> — це технологія, яка дозволяє пілоту керувати безпілотним літальним апаратом так, ніби він знаходиться безпосередньо всередині кабіни. Відеопотік у реальному часі передається з камери дрона на спеціальні FPV-окуляри або шолом.</p>
+                    <p>На відміну від звичайних споживчих квадрокоптерів, FPV-дрони не мають автоматичного утримання висоти чи позиції за GPS у стандартних режимах. Вони вимагають від пілота повного ручного керування (Acro mode), що надає абсолютну свободу маневру та можливість виконувати складні акробатичні трюки, розвиваючи швидкість понад 150 км/год.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="military" class="site-section alt-bg">
+            <div class="container">
+                <h2>Застосування FPV-дронів у Сучасній Війні</h2>
+                <div class="about-content">
+                    <p>У сучасних військових конфліктах FPV-дрони стали справжньою технологічною революцією. Завдяки високій швидкості, маневреності та низькій вартості порівняно з традиційним озброєнням, вони масово використовуються як високоточні камікадзе-засоби та інструменти розвідки.</p>
+                    <p>FPV-дрони здатні залітати у бліндажі, укриття, люки бронетехніки та уражати рухомі цілі на відстані десятків кілометрів. Важливу роль у їх ефективності відіграє майстерність пілота, стійкість зв'язку до засобів радіоелектронної боротьби (РЕБ) та використання сучасних протоколів передачі даних.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="types" class="site-section">
+            <div class="container">
+                <h2>Основні Класи та Види FPV Дронів</h2>
+                <div class="cards-grid">
+                    <article class="card">
+                        <span class="badge">ХІТ</span>
+                        <h3>Freestyle Дрони (5 дюймів)</h3>
+                        <p>Найпопулярніший клас рами для виконання фристайл-трюків, фліпів та польотів на високій швидкості серед перешкод.</p>
+                    </article>
+
+                    <article class="card">
+                        <span class="badge new-badge">ПОПУЛЯРНЕ</span>
+                        <h3>Cinewhoop (Захищені гвинти)</h3>
+                        <p>Компактні дрони із захисними дактами навколо пропелерів. Ідеально підходять для плавної зйомки всередині приміщень та поблизу людей.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Tiny Whoop (Мікро-дрони)</h3>
+                        <p>Маленькі та безпечні дрони для тренувань у квартирі чи будинку. Дозволяють відточувати навички незалежно від погоди за вікном.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Long Range (Далекольоти)</h3>
+                        <p>Спеціально зібрані дрони на 7-10 дюймових рамах з потужними акумуляторами для польотів на відстані понад 10-20 кілометрів.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="site-section alt-bg">
+            <div class="container">
+                <h2>Ключові Компоненти та Апаратура</h2>
+                <div class="cards-grid">
+                    <article class="card">
+                        <span class="badge">ВАЖЛИВО</span>
+                        <h3>Радіопередавачі та ELRS</h3>
+                        <p>Сучасний протокол зв'язку ExpressLRS (ELRS) забезпечує наднизьку затримку сигналу, високу частоту оновлення та надійний зв'язок на величезних відстанях.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Польотні Контролери (FC)</h3>
+                        <p>«Мозок» дрона, який обробляє дані з гіроскопа та команд пілота через прошивку Betaflight, корегуючи роботу моторів тисячі разів на секунду.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Видеосистеми: Analog vs Digital</h3>
+                        <p>Аналогове відео забезпечує мінімальну затримку за низькою ціною. Цифрові системи (DJI, Walksnail, HDZero) дають чітке HD-зображення без завад.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Безколекторні Мотори та ESC</h3>
+                        <p>Високооборотні мотори (KV) разом з регуляторами швидкості (ESC) гарантують миттєву реакцію на газ та колосальну тягу.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="simulators" class="site-section">
+            <div class="container">
+                <h2>Навчання та FPV Симулятори</h2>
+                <div class="about-content">
+                    <p>Перш ніж підняти в повітря реальний квадрокоптер, кожен пілот проходить обов'язкову підготовку в FPV-симуляторах на ПК. Це дозволяє сформувати м'язову пам'ять та навчитися керувати дроном без фінансових втрат від перших аварій.</p>
+                    <p>Найпопулярніші симулятори на ринку: <strong>Liftoff</strong>, <strong>Uncrashed</strong>, <strong>FPV Freerider</strong> та <strong>VelociDrone</strong>. Для тренувань використовується той самий аппаратурний пульт, що й для реальних польотів.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="site-section alt-bg">
+            <div class="container">
+                <h2>Галерея Зображень</h2>
+                <div class="grid-gallery">
+                    <div class="gallery-item">
+                        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/UA_military_FPV_drones_10.jpg/1280px-UA_military_FPV_drones_10.jpg?utm_source=uk.wikipedia.org&utm_campaign=index&utm_content=thumbnail" alt="FPV Дрон 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://img.mezha.ua/mezha/images/doc/d/e/315720/de7d1a61d55dbc826a48d16987e07669.jpeg?w=680&q=90" alt="FPV Дрон 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://gwaramedia.com/wp-content/webp-express/webp-images/uploads/2026/04/hfwym-eakaa-t34.jpeg.webp" alt="FPV Дрон 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://www.shutterstock.com/image-photo/custom-fpv-drone-flight-spinning-600w-2694167069.jpg" alt="FPV Дрон 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/4/12965/d493f0c-fpv-drones_690x387.png" alt="FPV Дрон 5">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://www.firstquadcopter.com/wp-content/uploads/2022/01/Geprc_Mark5_FPV_drone.jpg" alt="FPV Дрон 6">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://oscarliang.com/wp-content/uploads/2025/03/8S-Freestyle-FPV-Drone-build-lipo-battery.jpg" alt="FPV Дрон 7">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSluu1ENeTrpNFQLyWRAkLjHa5Aib2e6XgSCXOcBnjG53wVz31laBOYwyY&s=10" alt="FPV Дрон 8">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://hackster.imgix.net/uploads/attachments/1043055/_6frk6SwhMH.blob?auto=compress&w=1600&h=1200&fit=min&fm=jpg" alt="FPV Дрон 9">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="#about" class="back-to-top" title="Нагору" aria-label="Повернутися нагору">↑</a>
+
+</body>
+</html>
